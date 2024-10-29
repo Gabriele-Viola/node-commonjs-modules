@@ -7,7 +7,8 @@ Esporta la funzione dal file.
  * 
  * @param {string} hobbyOne 
  * @param {string} hobbyTwo 
- * @param {string} hobbyThree 
+ * @param {string} hobbyThree
+ * @returns  
  */
 function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
     const hobby = {
@@ -17,4 +18,4 @@ function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
 }
 
 
-module.exports = hobbies()
+module.exports = hobbies

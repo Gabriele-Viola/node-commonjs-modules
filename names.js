@@ -7,7 +7,6 @@ Esporta la funzione dal file.
  * 
  * @param {string} firstName 
  * @param {string} lastName 
- * @returns 
  */
 function names(firstName, lastName) {
     const fullName = {
@@ -18,4 +17,4 @@ function names(firstName, lastName) {
 }
 // const user = names('gabriele', 'viola')
 // console.log(user);
-module.exports = names()
+module.exports = names
