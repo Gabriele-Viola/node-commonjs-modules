@@ -17,3 +17,18 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto.
 */
 console.log('hi there');
+const names = require('./names.js');
+const hobbies = require('./hobbies.js');
+console.log(names);
+console.log(hobbies);
+
+
+function peopleInfo() {
+    const people ={
+        firstname : names.firstName,
+        lastname: names.lastName,
+        hobbies: hobbies.hobbies
+    }
+    return people
+}
+console.log(peopleInfo());

@@ -16,6 +16,6 @@ function names(firstName, lastName) {
     }
     return fullName
 }
-const user = names('gabriele', 'viola')
-console.log(user);
-module.exports = names
+// const user = names('gabriele', 'viola')
+// console.log(user);
+module.exports = names()
